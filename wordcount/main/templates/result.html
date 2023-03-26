@@ -1,0 +1,13 @@
+<body>
+    <h1>결과</h1>
+    <hr>
+   
+    <br>
+    {% for word,value in words%}
+    단어 : {{word}} 갯수 {{value}}
+    <br>
+    {% endfor%}
+
+</body>
+
+<a href="{% url 'about'%}">메인</a>
